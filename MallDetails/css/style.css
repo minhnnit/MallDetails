@@ -1,0 +1,817 @@
+@font-face {
+    font-family: Cookies;
+    src: url('../fonts/UTM Cookies.ttf');
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    background-color: #f9f9f9;
+    padding: 5px 15px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+header {
+    width: 100%;
+    min-height: 78px;
+    background-color: #0a7ba3;
+
+}
+
+.main {
+    margin: auto;
+    max-width: 1250px;
+
+}
+
+.top-bar {
+    text-align: center;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.mg-top {
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+}
+
+.mg-top-fa {
+    padding-top: 15px;
+    justify-content: center;
+    display: flex;
+}
+
+.btn-search {
+    background-color: #ffffff;
+    border-bottom: 1px solid #ced4da;
+    border-top: 1px solid #ced4da;
+}
+
+#search-any {
+    border-left: none;
+}
+
+.dc-top {
+    background-color: #0a6d87;
+    font-family: Cookies;
+    font-weight: bold;
+    font-size: 16px;
+    color: #f9f9f9;
+    border-radius: 15px;
+    border-style: dotted;
+    border-width: 2px;
+}
+
+.dc-top span {
+    color: #ecb92a;
+}
+
+.dc-top p {
+    margin-bottom: 3px;
+}
+
+.fa-heart {
+    color: #d02038;
+}
+
+.fa-star {
+    color: #ecb92a;
+    padding-left: 10px;
+}
+
+.login-top a {
+    color: #f9f9f9;
+}
+
+.menu-top {
+    border-bottom: solid 1px #e0e0e0;
+}
+
+.menu-top ul li {
+    list-style-type: none;
+    margin: auto;
+}
+
+.menu-top ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-top: 12px;
+    padding-left: 0;
+}
+
+.fa-lg-red {
+    color: #f15a34;
+    padding-right: 5px;
+}
+
+.menu-slider p {
+    font-size: 14px;
+    padding-top: 10px;
+}
+
+.top-slider-img img {
+    width: 100%;
+}
+
+.main-content {
+    padding-top: 20px;
+}
+
+.left-content-menu ul {
+    padding-left: 0;
+}
+
+.left-content-menu ul li {
+    list-style-type: none;
+    font-size: 13px;
+    line-height: 25px;
+}
+
+.left-content-menu h6 {
+    color: #0a7ba3;
+    font-weight: bold;
+}
+
+.left-content-menu span {
+    padding-left: 5px;
+}
+
+.map-content img {
+    width: 100%;
+}
+
+.map-button {
+    margin-top: 20px;
+}
+
+.map-button ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-left: 0;
+}
+
+.map-button ul li {
+    list-style-type: none;
+    padding-right: 10px;
+}
+
+.map-button span {
+    color: #009989;
+    font-size: 14px;
+}
+
+.map-button .fa-lg {
+    color: #009989;
+}
+
+.coupons span {
+    color: #f15a34;
+    font-weight: bold;
+}
+
+hr {
+    color: #f15a34;
+}
+
+.coupons-box {
+    border: solid 1px #c7c7c6;
+}
+
+.coupons-description {
+    padding-top: 13px;
+    padding-left: 5px;
+
+}
+
+.in-store {
+    background-color: #d6d6d6;
+}
+
+.icon-cashback {
+    padding-bottom: 15px;
+}
+
+.icon-cashback .in-store {
+    color: #969696;
+}
+
+.icon-cashback ul li {
+    list-style-type: none;
+}
+
+.icon-cashback ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-left: 0;
+}
+
+.icon-cashback .fa-check-square {
+    color: #0a7ba3;
+    padding-left: 10px;
+    padding-right: 0;
+}
+
+.icon-cashback .fa-star {
+    color: #d6d6d6;
+    padding-right: 10px;
+}
+
+.coupons-description-title {
+    padding-bottom: 15px;
+}
+
+.coupons-description-title span {
+    color: #333333;
+    font-size: 15px;
+}
+
+.coupons-desc span {
+    color: #bababa;
+    font-size: 13px;
+}
+
+.get-coupons {
+    padding-top: 25px;
+}
+
+.dc-percent {
+    float: left;
+}
+
+.dc-percent span {
+    color: #0a7ba3;
+    font-size: 35px;
+}
+
+.cp-price ul li {
+    list-style-type: none;
+    font-size: 15px;
+}
+
+.cp-price ul {
+    padding-left: 0;
+}
+
+.cp-f-price {
+    color: #d5d5d5;
+    text-decoration: line-through;
+}
+
+.btn-get-deal {
+    float: right;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+
+.btn-green {
+    width: 176px !important;
+    line-height: 1.9;
+    background-color: #9cbe3c;
+    border-radius: 3px;
+    color: #f9f9f9;
+    font-size: 19px;
+    float: right;
+}
+
+.coupons-react {
+    clear: both;
+    background-color: #e7e5de;
+    padding-bottom: 6px;
+}
+
+.coupons-react-left ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-left: 0;
+    margin-bottom: 0;
+    padding-top: 10px;
+
+}
+
+.coupons-react-left ul li {
+    list-style-type: none;
+    margin: auto;
+
+}
+
+.coupons-react-left span, .fa-lg-grey {
+    color: #929292;
+}
+
+.coupons-react-right {
+    padding-right: 10px;
+}
+
+.coupons-react-right ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-left: 0;
+    margin-bottom: 0;
+    padding-top: 10px;
+    float: right;
+
+}
+
+.coupons-react-right ul li {
+    list-style-type: none;
+    padding-left: 20px;
+
+}
+
+.coupons-box {
+    margin-bottom: 30px;
+}
+
+.btn-code {
+    color: #333333;
+}
+
+.h-btn p {
+    margin-bottom: 0;
+    padding-left: 5px;
+}
+
+.h-btn {
+    position: relative;
+    padding: 0;
+    text-align: left;
+    overflow: hidden;
+    height: 50px;
+}
+
+.h-btn span {
+    position: absolute;
+    left: 40px;
+    top: 0;
+    padding-top: 5px;
+    bottom: 0;
+    right: 0;
+    background-color: #0a7ba3;
+    color: #fff;
+    display: block;
+    text-align: center;
+    -webkit-transition: .2s ease-out;
+    -moz-transition: .2s ease-out;
+    -ms-transition: .2s ease-out;
+    -o-transition: .2s ease-out;
+    transition: .2s ease-out;
+
+}
+
+.h-btn span:before {
+    content: " ";
+    position: absolute;
+    display: block;
+    width: 0;
+    height: 0;
+    top: 0;
+
+}
+
+.h-btn:after {
+    border-top: 22px solid transparent;
+    border-right: 15px solid #1a7a97;
+    border-bottom: 32px solid transparent;
+    right: 0;
+    z-index: 1;
+    -webkit-transform: rotate(-27deg);
+    -moz-transform: rotate(-27deg);
+    -ms-transform: rotate(-27deg);
+    -o-transform: rotate(-27deg);
+    transform: rotate(-27deg);
+    -webkit-transition: .2s ease-out;
+    -moz-transition: .2s ease-out;
+    -ms-transition: .2s ease-out;
+    -o-transition: .2s ease-out;
+    transition: .2s ease-out;
+    -webkit-transform-origin: top left;
+    -moz-transform-origin: top left;
+    -ms-transform-origin: top left;
+    -o-transform-origin: top left;
+    transform-origin: top left;
+}
+
+.btn p {
+    line-height: 46px;
+    height: 48px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-weight: 600;
+}
+
+.coupons-box-sm {
+    border: solid 1px #c7c7c6;
+    margin-bottom: 30px;
+}
+
+.coupons-img-sm {
+    height: 160px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.coupons-description-sm {
+    float: left;
+    padding-top: 13px;
+    padding-left: 15px;
+}
+
+.link-to-store span {
+    font-size: 13px;
+    color: #009989;
+}
+
+.get-coupons-sm {
+    height: 160px;
+    float: left;
+}
+
+.coupon-discount-sm {
+    padding-top: 25px;
+    float: left;
+    height: 50%;
+
+}
+
+.dc-percent-sm {
+    float: left;
+}
+
+.dc-percent-sm span {
+    color: #0a7ba3;
+    font-size: 35px;
+}
+
+.cp-price-sm {
+    float: right;
+}
+
+.cp-price-sm ul li {
+    list-style-type: none;
+}
+
+.cp-price-sm ul {
+    padding-left: 5px;
+    font-size: 15px;
+}
+
+.btn-get-deal-sm {
+    height: 50%;
+}
+
+.btn-get-deal-sm {
+    padding-top: 10px;
+    height: 50%;
+}
+
+.store-bottom {
+    margin-top: 50px;
+}
+
+.store-bottom-cm span {
+    color: #3e92af;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.store-bottom-dm span, .store-bottom-shop span {
+    color: #f15a34;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.dots {
+    color: #c6c6c4 !important;
+    font-size: 15px !important;
+}
+
+.store-bottom {
+    background-color: #e1ddd5;
+}
+
+.store-bottom-cm ul li, .store-bottom-dm ul li, .store-bottom-shop ul li {
+    list-style-type: none;
+    margin: auto;
+    line-height: 2;
+    color: #7f7e7d;
+}
+
+.store-bottom-cm ul, .store-bottom-dm ul, .store-bottom-shop ul {
+    padding-left: 0;
+}
+
+.row-footer {
+    padding-top: 20px;
+    padding-left: 10px;
+}
+
+.ft-cn-bogo {
+    padding-top: 20px;
+}
+
+.download-app-icon, .download-app-text {
+    text-align: center;
+}
+
+.connect-bogo {
+    text-align: center;
+}
+
+.fa-android {
+    color: #9cbe3c;
+}
+
+footer {
+    padding-top: 20px;
+    background-color: #333333;
+}
+
+footer ul li {
+    list-style-type: none;
+}
+
+footer ul, a {
+    padding-left: 0;
+    color: #c0c0c0;
+}
+
+.ft-copyright {
+    float: right;
+}
+
+.signup-email {
+    position: relative;
+    z-index: 1;
+}
+
+.input-subcribe {
+    height: 50px;
+}
+
+.form-control-bottom {
+    width: 100%;
+    height: 52px;
+    padding: 6px 12px;
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 50px;
+}
+
+.btn-submit {
+    color: #ffffff;
+    font-size: 14px;
+    background-color: #f15a34;
+    border: 0;
+    text-transform: none;
+    height: 47px;
+    border-radius: 50px;
+}
+
+.btn-subcribe {
+    position: absolute;
+    right: 18px;
+    top: 61px;
+    width: 126px;
+}
+
+.ft-cn-bogo {
+    padding-bottom: 45px;
+}
+
+.signup-email-searchbar, .download-app-icon, .connect-bogo-icon {
+    padding-top: 35px;
+}
+
+.fa-apple, .fa-android {
+    font-size: 50px;
+}
+
+.fa-apple {
+    color: #676767;
+    padding-right: 20px;
+}
+
+.top-slider-title {
+    background-color: #e3e0da;
+    padding: 10px 10px;
+}
+
+.top-slider-title-icon i {
+    margin-left: 15px;
+}
+
+.top-slider-title-text span {
+    font-size: 27px;
+}
+
+.top-slider-title-icon {
+    font-size: 14px;
+}
+
+.fa-heart-slider {
+    font-size: 30px;
+    padding-left: 10px;
+    color: #c0c0c0;
+}
+
+.top-slider {
+    position: relative;
+    z-index: 1;
+}
+
+.royal-avt {
+    position: absolute;
+    top: 130px;
+}
+
+.top-slider-title-icon, .top-slider-title-text {
+    padding-left: 200px;
+}
+
+.cm-blue {
+    color: #328ead !important;
+}
+
+.shop-red {
+    color: #f15a34 !important;
+}
+
+.coupons-img img {
+    width: 100%;
+    height: 100%;
+}
+
+@media screen and (max-width: 1024px) {
+    .royal-avt img {
+        max-width: 80%;
+    }
+
+    .mg-top-fa {
+        padding-top: 28px;
+    }
+
+    .cp-price {
+        padding-left: 10px;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    .royal-avt {
+        top: 70px;
+    }
+
+    .left-content-menu {
+        display: none;
+    }
+
+    .btn-green {
+        width: 155px !important;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .mg-top {
+        padding-bottom: 15px;
+        flex-direction: unset;
+    }
+
+    .mg-top-fa {
+        padding-top: 0;
+    }
+
+    .royal-avt {
+        top: 95px;
+    }
+
+    .map-button ul {
+        flex-wrap: unset;
+    }
+
+    .coupon-discount {
+        padding-left: 60px;
+    }
+
+    .btn-get-deal, .btn-green {
+        float: unset;
+    }
+
+    .btn-get-deal {
+        padding-left: 120px;
+    }
+
+    .get-coupons-sm {
+        padding-left: 120px;
+    }
+
+    .top-slider-img img {
+        display: none;
+    }
+
+    .royal-avt {
+        top: 20px;
+    }
+
+    .coupons-description-sm {
+        text-align: center;
+    }
+
+    .coupons-react-right ul {
+        float: unset;
+        padding-left: 90px;
+
+    }
+
+    .download-app-icon, .connect-bogo-icon {
+        padding-top: 25px;
+    }
+
+    .download-app-text, .connect-bogo-text {
+        padding-top: 10px;
+    }
+
+}
+
+@media screen and (max-width: 375px) {
+    .btn-get-deal {
+        padding-left: 95px;
+    }
+
+    .get-coupons-sm {
+        padding-left: 95px;
+    }
+
+    .coupon-discount {
+        padding-left: 48px;
+    }
+
+    .top-slider-title-text span {
+        font-size: 20px;
+    }
+
+    .coupons-react-right ul {
+        padding-left: 70px;
+
+    }
+
+    .form-control-bottom {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .btn-get-deal {
+        padding-left: 70px;
+    }
+
+    .get-coupons-sm {
+        padding-left: 70px;
+    }
+
+    .coupon-discount {
+        padding-left: 36px;
+    }
+
+    .royal-avt img {
+        max-width: 50%;
+    }
+
+    .top-slider-title-icon, .top-slider-title-text {
+        padding-left: 100px;
+    }
+
+    .coupons-react-right ul {
+        padding-left: 45px;
+    }
+
+    .form-control-bottom {
+        font-size: 13px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
