@@ -10,6 +10,9 @@ body {
     padding: 5px 15px;
     font-family: 'Open Sans', sans-serif;
 }
+a:hover{
+    text-decoration: none;
+}
 
 header {
     width: 100%;
@@ -77,7 +80,7 @@ header {
 
 .fa-star {
     color: #ecb92a;
-    padding-left: 10px;
+    padding-left: 15px;
 }
 
 .login-top a {
@@ -86,6 +89,14 @@ header {
 
 .menu-top {
     border-bottom: solid 1px #e0e0e0;
+}
+
+.menu-top a {
+    color: #676767;
+}
+
+.menu-slider p {
+    color: #858585;
 }
 
 .menu-top ul li {
@@ -101,6 +112,11 @@ header {
     padding-left: 0;
 }
 
+.top-slider-title-icon span {
+    color: #787877;
+    padding-left: 5px;
+}
+
 .fa-lg-red {
     color: #f15a34;
     padding-right: 5px;
@@ -109,6 +125,11 @@ header {
 .menu-slider p {
     font-size: 14px;
     padding-top: 10px;
+}
+
+.top-slider-title-text-right {
+    float: right;
+    color: #c0c0c0;
 }
 
 .top-slider-img img {
@@ -136,6 +157,7 @@ header {
 
 .left-content-menu span {
     padding-left: 5px;
+    color: #676767;
 }
 
 .map-content img {
@@ -144,6 +166,10 @@ header {
 
 .map-button {
     margin-top: 20px;
+}
+
+.map-button a {
+    padding-left: 10px;
 }
 
 .map-button ul {
@@ -196,6 +222,7 @@ hr {
 
 .icon-cashback .in-store {
     color: #969696;
+    font-weight: unset;
 }
 
 .icon-cashback ul li {
@@ -292,7 +319,16 @@ hr {
     padding-top: 10px;
 
 }
+.coupons-react-left span
+{
+    padding-left: 7px;
+    font-weight: unset;
+}
 
+.fa-thumbs-down
+{
+    padding-left: 5px;
+}
 .coupons-react-left ul li {
     list-style-type: none;
     margin: auto;
@@ -536,7 +572,7 @@ footer ul li {
     list-style-type: none;
 }
 
-footer ul, a {
+footer ul, .ft-copyright a {
     padding-left: 0;
     color: #c0c0c0;
 }
@@ -616,7 +652,7 @@ footer ul, a {
 
 .fa-heart-slider {
     font-size: 30px;
-    padding-left: 10px;
+    padding-left: 20px;
     color: #c0c0c0;
 }
 
@@ -646,6 +682,10 @@ footer ul, a {
     width: 100%;
     height: 100%;
 }
+.connect-bogo-icon
+{
+    font-size: 25px
+}
 
 @media screen and (max-width: 1024px) {
     .royal-avt img {
@@ -658,6 +698,13 @@ footer ul, a {
 
     .cp-price {
         padding-left: 10px;
+    }
+
+    .top-slider-title-icon, .top-slider-title-text {
+        padding-left: 170px;
+    }
+    footer ul{
+        padding-left: 5px !important;
     }
 
 }
@@ -674,6 +721,10 @@ footer ul, a {
     .btn-green {
         width: 155px !important;
     }
+
+    .top-slider-title-text span {
+        font-size: 20px;
+    }
 }
 
 @media screen and (max-width: 425px) {
@@ -684,10 +735,6 @@ footer ul, a {
 
     .mg-top-fa {
         padding-top: 0;
-    }
-
-    .royal-avt {
-        top: 95px;
     }
 
     .map-button ul {
@@ -715,7 +762,7 @@ footer ul, a {
     }
 
     .royal-avt {
-        top: 20px;
+        top: 0;
     }
 
     .coupons-description-sm {
@@ -734,6 +781,32 @@ footer ul, a {
 
     .download-app-text, .connect-bogo-text {
         padding-top: 10px;
+    }
+
+    .royal-avt img {
+        max-width: 60%;
+    }
+
+    .top-slider-title-icon, .top-slider-title-text {
+        padding-left: 120px;
+    }
+
+    .top-slider-title-text span {
+        font-size: 16px !important;
+    }
+    footer
+    {
+        text-align: center;
+    }
+    .top-slider-title-text{
+        padding-bottom: 10px;
+    }
+    .map-button span{
+        display: none;
+    }
+    .map-button
+    {
+        padding-left: 70px;
     }
 
 }
@@ -759,9 +832,21 @@ footer ul, a {
         padding-left: 70px;
 
     }
+    .top-slider-title-text-right
+    {
+        display: none;
+    }
 
     .form-control-bottom {
         font-size: 15px;
+    }
+    footer
+    {
+        font-size: 14px;
+    }
+    .map-button
+    {
+        padding-left: 50px;
     }
 }
 
@@ -792,6 +877,18 @@ footer ul, a {
 
     .form-control-bottom {
         font-size: 13px;
+    }
+    .royal-avt
+    {
+        top:10px;
+    }
+    .map-button
+    {
+        padding-left: 30px;
+    }
+    .map-button a
+    {
+        padding-left: 0;
     }
 }
 
