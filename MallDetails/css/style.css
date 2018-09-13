@@ -686,6 +686,64 @@ footer ul, .ft-copyright a {
 {
     font-size: 25px
 }
+.checkbox-num
+{
+    padding-left: 10px;
+    color: #c8c8c8 !important;
+}
+.list-related
+{
+    max-height: 150px;
+    overflow-y: auto;
+}
+#style-scroll::-webkit-scrollbar-track
+{
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    border-radius: 10px;
+    background-color: #ffffff;
+}
+
+#style-scroll::-webkit-scrollbar
+{
+    width: 7px;
+    background-color: #F5F5F5;
+}
+
+#style-scroll::-webkit-scrollbar-thumb
+{	height: 30px;
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+    background-color: #dfdfdf;
+}
+.top-slider-title-text i:hover
+{
+    color: red !important;
+}
+.hover-map:hover
+{
+    background-color: #009988 !important;
+}
+.hover-map:hover span{
+    color: #ffffff !important;
+}
+.hover-map:hover i{
+    color: #ffffff !important;
+}
+.hover-map
+{
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.map-button ul li
+{
+    border-right: solid 1px #22a798;
+}
+.top-slider-title-text-left
+{
+    color: #212529;
+}
+
 
 @media screen and (max-width: 1024px) {
     .royal-avt img {
@@ -806,7 +864,7 @@ footer ul, .ft-copyright a {
     }
     .map-button
     {
-        padding-left: 70px;
+        padding-left: 100px;
     }
 
 }
@@ -846,7 +904,7 @@ footer ul, .ft-copyright a {
     }
     .map-button
     {
-        padding-left: 50px;
+        padding-left: 90px;
     }
 }
 
@@ -884,7 +942,7 @@ footer ul, .ft-copyright a {
     }
     .map-button
     {
-        padding-left: 30px;
+        padding-left: 75px;
     }
     .map-button a
     {
