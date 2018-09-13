@@ -199,7 +199,7 @@ header {
 }
 
 hr {
-    color: #f15a34;
+    background-color: #f15a34;
 }
 
 .coupons-box {
@@ -223,6 +223,9 @@ hr {
 .icon-cashback .in-store {
     color: #969696;
     font-weight: unset;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 2px;
 }
 
 .icon-cashback ul li {
@@ -267,11 +270,12 @@ hr {
 
 .dc-percent {
     float: left;
+    padding-right: 10px;
 }
 
 .dc-percent span {
     color: #0a7ba3;
-    font-size: 35px;
+    font-size: 40px;
 }
 
 .cp-price ul li {
@@ -281,6 +285,7 @@ hr {
 
 .cp-price ul {
     padding-left: 0;
+    padding-top: 4px;
 }
 
 .cp-f-price {
@@ -469,7 +474,7 @@ hr {
 }
 
 .coupon-discount-sm {
-    padding-top: 25px;
+    padding-top: 10px;
     float: left;
     height: 50%;
 
@@ -481,11 +486,12 @@ hr {
 
 .dc-percent-sm span {
     color: #0a7ba3;
-    font-size: 35px;
+    font-size: 40px;
 }
 
 .cp-price-sm {
     float: right;
+    padding-top: 4px;
 }
 
 .cp-price-sm ul li {
@@ -722,6 +728,7 @@ footer ul, .ft-copyright a {
 .hover-map:hover
 {
     background-color: #009988 !important;
+    border-radius: 2px;
 }
 .hover-map:hover span{
     color: #ffffff !important;
@@ -739,11 +746,64 @@ footer ul, .ft-copyright a {
 {
     border-right: solid 1px #22a798;
 }
+.hover-map-bd
+{
+    border-right: none !important;
+}
 .top-slider-title-text-left
 {
-    color: #212529;
+    color: #333333;
+}
+.cl-blue
+{
+    color: #0a7ba3 !important;
+    font-size: 18px!important;
+}
+.cp-s-price
+{
+    font-size: 18px !important;
+}
+.coupons-img-sm img
+{
+    max-width: 127px;
+    max-height: 127px;
+}
+.show-more
+{
+    text-align: center;
+
+}
+.show-more span
+{
+    color: #c0c0c0;
 }
 
+.container {
+    position: relative;
+    text-align: center;
+}
+
+.line {
+    border-top: 2px dotted #c0c0c0;
+    width: 95%;
+    position: absolute;
+    top: 50%;
+    z-index: -2;
+
+}
+
+.text {
+    background-color: #f9f9f9;
+    padding: 0 3px;
+}
+.container i
+{
+    padding-left: 10px;
+}
+.text span
+{
+    color: #c0c0c0;
+}
 
 @media screen and (max-width: 1024px) {
     .royal-avt img {
@@ -782,6 +842,13 @@ footer ul, .ft-copyright a {
 
     .top-slider-title-text span {
         font-size: 20px;
+    }
+    .cp-s-price {
+        font-size: 15px !important;
+    }
+    .cp-price-sm
+    {
+        padding-top: 6px;
     }
 }
 
