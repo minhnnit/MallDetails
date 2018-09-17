@@ -20,8 +20,8 @@
           <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/MallDetails/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="336">
-                  <caret line="729" column="47" lean-forward="true" selection-start-line="729" selection-start-column="47" selection-end-line="729" selection-end-column="47" />
+                <state relative-caret-position="-2261">
+                  <caret line="288" column="57" lean-forward="true" selection-start-line="288" selection-start-column="57" selection-end-line="288" selection-end-column="57" />
                 </state>
               </provider>
             </entry>
@@ -33,8 +33,8 @@
           <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/MallDetails/css/style.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="296">
-                  <caret line="825" column="5" lean-forward="true" selection-start-line="825" selection-start-column="5" selection-end-line="825" selection-end-column="5" />
+                <state relative-caret-position="119">
+                  <caret line="438" column="37" lean-forward="true" selection-start-line="438" selection-start-column="37" selection-end-line="438" selection-end-column="37" />
                 </state>
               </provider>
             </entry>
@@ -51,6 +51,15 @@
       <find>024</find>
       <find>h-b</find>
       <find>1024</find>
+      <find>map-ma</find>
+      <find>cash</find>
+      <find>check-squ</find>
+      <find>fa-sta</find>
+      <find>fa-check-square</find>
+      <find>in-store</find>
+      <find>check-sq</find>
+      <find>a</find>
+      <find>alt</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -83,35 +92,7 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="MallDetails" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MallDetails" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MallDetails" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MallDetails" type="462c0819:PsiDirectoryNode" />
-              <item name="MallDetails" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MallDetails" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MallDetails" type="462c0819:PsiDirectoryNode" />
-              <item name="MallDetails" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MallDetails" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="bcb0276e:PhpExternalLibrariesNodePatcher$PatchedExternalLibrariesNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -143,27 +124,39 @@
       <option name="presentableId" value="Default" />
       <updated>1536803377844</updated>
       <workItem from="1536803379544" duration="25147000" />
-      <workItem from="1536905463765" duration="3763000" />
+      <workItem from="1536905463765" duration="14074000" />
+      <workItem from="1536921966164" duration="1308000" />
+      <workItem from="1537146402760" duration="7345000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28910000" />
+    <option name="totallyTimeSpent" value="47874000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.24962178" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4977307" weight="0.32843137" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50226927" side_tool="true" weight="0.32843137" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.24962178" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -172,7 +165,6 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -182,6 +174,34 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/MallDetails/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8687">
+          <caret line="511" column="72" lean-forward="true" selection-start-line="511" selection-start-column="72" selection-end-line="511" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MallDetails/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7990">
+          <caret line="470" column="15" selection-start-line="470" selection-start-column="15" selection-end-line="470" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MallDetails/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4709">
+          <caret line="277" column="93" lean-forward="true" selection-start-line="277" selection-start-column="93" selection-end-line="277" selection-end-column="93" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MallDetails/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7531">
+          <caret line="443" column="1" lean-forward="true" selection-start-line="443" selection-start-column="1" selection-end-line="443" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/MallDetails/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4590">
@@ -196,17 +216,29 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/Desktop/Goodshop - Coupons, coupon codes, exclusive deals and discounts.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="4967" column="61" selection-start-line="4967" selection-start-column="61" selection-end-line="4967" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/Goodshop - Coupons, coupon codes, exclusive deals and discounts_files/vex.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1204" />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/MallDetails/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="729" column="47" lean-forward="true" selection-start-line="729" selection-start-column="47" selection-end-line="729" selection-end-column="47" />
+        <state relative-caret-position="-2261">
+          <caret line="288" column="57" lean-forward="true" selection-start-line="288" selection-start-column="57" selection-end-line="288" selection-end-column="57" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/MallDetails/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="825" column="5" lean-forward="true" selection-start-line="825" selection-start-column="5" selection-end-line="825" selection-end-column="5" />
+        <state relative-caret-position="119">
+          <caret line="438" column="37" lean-forward="true" selection-start-line="438" selection-start-column="37" selection-end-line="438" selection-end-column="37" />
         </state>
       </provider>
     </entry>
